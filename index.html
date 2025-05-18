@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Abdul Malik - Veterinary Medicine</title>
+    <link rel="icon" href="https://i.pinimg.com/736x/8c/04/1e/8c041e2a2fd61316219bae0d353cbc17.jpg">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -28,6 +29,46 @@
             max-width: 400px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .whatsapp-button {
+            text-decoration: none;
+            background-color: #25D366;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 15px 25px;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 1000; /* Keep a high z-index for the button itself */
+            animation: pulse 1.5s infinite alternate; /* Add animation */
+            background: linear-gradient(to right, #0c0d0c, #206fc9) !important; /* Changed background color */
+        }
+
+        .whatsapp-button i {
+            margin-right: 10px;
+        }
+
+        /* Floating/Fixed positioning on the left */
+        .whatsapp-fixed-left {
+            position: fixed;
+            bottom: 30px; /* Adjust vertical position */
+            left: 30px; /* Adjust horizontal position */
+            z-index: 99999; /* Extremely high z-index to stay on top */
+        }
+
+        /* Animation keyframes */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            100% {
+                transform: scale(1.05);
+                opacity: 1;
+            }
         }
     </style>
 </head>
@@ -64,6 +105,13 @@
             </div>
         </div>
     </section>
+    <a
+        href="https://wa.me/+923108389871"
+        target="_blank"
+        class="whatsapp-button whatsapp-fixed-left">
+        <i style="font-size:24px" class="fa">&#xf232;</i>
+        For Emergencies
+    </a>
 
     <!-- About Section -->
     <section id="about" class="py-20 bg-white">

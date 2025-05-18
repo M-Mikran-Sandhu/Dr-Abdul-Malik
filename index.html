@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Abdul Malik - Veterinary Medicine</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/736x/bd/67/83/bd67839e6e8fb02bb49683242d457021.jpg') no-repeat center center/cover;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);    
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .nonedc {
+            text-decoration: none;
+            color: #f5ff69;
+        }
+        .nonedc:hover {
+            text-decoration: none;
+            color: #21fb8e;
+        }
+        .imgg {
+            width: 100%;
+            height: 450px;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-blue-800 font-bold text-2xl">Dr. Abdul Malik</a>
+                <div class="hidden md:flex space-x-10">
+                    <a href="#home" class="text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600">About</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-600">Services</a>
+                    <a href="#experience" class="text-gray-700 hover:text-blue-600">Experience</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-700 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg text-white py-32">
+        <div class="container mx-auto px-4 text-center">
+            <div class="bg-blue-900 bg-opacity-50 p-8 rounded-lg inline-block">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Dr. Abdul Malik</h1>
+                <h2 class="text-2xl md:text-3xl mb-6">Doctor of Veterinary Medicine</h2>
+                <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">Dedicated and compassionate veterinarian with 4+ years of experience delivering top-tier animal healthcare in high-pressure clinical environments.</p>
+                <a href="https://wa.me/+923108389871" class="bg-blue-600 hover:bg-blue-700 text-white py-3 px-8 rounded-full font-semibold transition duration-300">Book an Appointment</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">About Dr. Abdul Malik</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-10 md:mb-0">
+                    <img src="https://i.pinimg.com/736x/51/15/dc/5115dc30e9755d5560428ffd37d92367.jpg" alt="Dr. Abdul Malik" class="rounded-lg shadow-xl mx-auto  imgg">
+                </div>
+                <div class="md:w-2/3 md:pl-12">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Professional Background</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        As a dedicated and compassionate veterinarian with over 4 years of experience, I specialize in delivering exceptional animal healthcare in demanding clinical environments. My expertise spans diagnosing complex conditions, performing surgeries, and implementing effective preventive care strategies.
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        I am committed to improving patient outcomes and building strong client relationships through clear communication and education. My approach combines medical excellence with genuine care for both animals and their owners.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-blue-600 mr-2"></i>
+                            <span>Complex Diagnoses</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-blue-600 mr-2"></i>
+                            <span>Surgical Expertise</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-blue-600 mr-2"></i>
+                            <span>Emergency Care</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-blue-600 mr-2"></i>
+                            <span>Client Education</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">English</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Urdu</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Punjabi</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Pashto</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">My Services</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto mb-4"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">Comprehensive veterinary care tailored to meet the unique needs of your pets.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white rounded-lg shadow-md p-6 transition duration-300 service-card">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-stethoscope text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-3">Wellness Exams</h3>
+                    <p class="text-gray-600 text-center">Comprehensive physical examinations and preventative care to keep your pet healthy.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-white rounded-lg shadow-md p-6 transition duration-300 service-card">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-syringe text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-3">Vaccinations</h3>
+                    <p class="text-gray-600 text-center">Essential vaccinations and preventative medicine to protect your pet from common diseases.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-white rounded-lg shadow-md p-6 transition duration-300 service-card">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-heartbeat text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-3">Emergency Care</h3>
+                    <p class="text-gray-600 text-center">Prompt and effective critical care for urgent medical situations.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="bg-white rounded-lg shadow-md p-6 transition duration-300 service-card">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-cut text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-3">Surgical Procedures</h3>
+                    <p class="text-gray-600 text-center">From routine spaying/neutering to complex soft tissue and orthopedic surgeries.</p>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="bg-white rounded-lg shadow-md p-6 transition duration-300 service-card">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-x-ray text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-3">Diagnostic Imaging</h3>
+                    <p class="text-gray-600 text-center">Advanced X-rays, ultrasound, and laboratory tests for accurate diagnosis.</p>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="bg-white rounded-lg shadow-md p-6 transition duration-300 service-card">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-tooth text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-3">Dental Care</h3>
+                    <p class="text-gray-600 text-center">Comprehensive dental examinations, cleanings, and basic extractions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">Professional Experience</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <!-- Timeline Item 1 -->
+                <div class="flex flex-col md:flex-row mb-12">
+                    <div class="md:w-1/3">
+                        <div class="bg-blue-600 text-white p-4 rounded mb-4 md:mb-0 md:mr-6">
+                            <h3 class="font-semibold">Erika Veterinary Clinic</h3>
+                            <p>December 2024 - Present</p>
+                            <p class="text-sm">Malé, Maldives</p>
+                        </div>
+                    </div>
+                    <div class="md:w-2/3">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-2">Veterinarian</h4>
+                        <ul class="text-gray-600 list-disc pl-5 space-y-2">
+                            <li>Diagnosed and treated diverse medical conditions in cats and exotic species, resulting in a 25% increase in recovery rates.</li>
+                            <li>Performed over 100 routine and emergency surgeries with high post-op success rate.</li>
+                            <li>Performed over 150 left lateral flank spays and 100 neutering in cats.</li>
+                            <li>Delivered critical emergency care, improving survival outcomes in urgent cases.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 2 -->
+                <div class="flex flex-col md:flex-row mb-12">
+                    <div class="md:w-1/3">
+                        <div class="bg-blue-600 text-white p-4 rounded mb-4 md:mb-0 md:mr-6">
+                            <h3 class="font-semibold">RPK Critter Care & Animal Hospital</h3>
+                            <p>May 2024 - October 2024</p>
+                            <p class="text-sm">Karachi, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="md:w-2/3">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-2">Senior Veterinary Doctor</h4>
+                        <ul class="text-gray-600 list-disc pl-5 space-y-2">
+                            <li>Performed comprehensive diagnostics using X-rays, ultrasounds, and lab tests for over 500 cases.</li>
+                            <li>Executed over 70 complex surgeries with meticulous post-op follow-up.</li>
+                            <li>Performed more than 100 midline spays and 150 neutering in both dogs and cats.</li>
+                            <li>Led and mentored a team of veterinary technicians, improving clinical efficiency.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 3 -->
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/3">
+                        <div class="bg-blue-600 text-white p-4 rounded mb-4 md:mb-0 md:mr-6">
+                            <h3 class="font-semibold">Capital Pets Hospital</h3>
+                            <p>August 2023 - May 2024</p>
+                            <p class="text-sm">Islamabad, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="md:w-2/3">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-2">Junior Veterinary Doctor</h4>
+                        <ul class="text-gray-600 list-disc pl-5 space-y-2">
+                            <li>Diagnosed and treated over 200 small animals using advanced imaging and lab diagnostics.</li>
+                            <li>Performed surgical procedures including neutering, wound repair, and emergency interventions.</li>
+                            <li>Delivered clear client communications, helping owners understand complex diagnoses.</li>
+                            <li>Handled critical cases efficiently, improving patient outcomes and clinic responsiveness.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">Certifications & Education</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-6 flex items-center">
+                      <i class="fas fa-certificate text-blue-600 mr-2"></i>
+                      Professional Certifications
+                    </h3>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <ul class="space-y-3 text-gray-600">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-2"></i>
+                                <span>Clinical Update on Canine and Feline Parvovirus Infections (WSAVA)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-2"></i>
+                                <span>Basic Dental Extractions (WSAVA)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-2"></i>
+                                <span>Introduction to Thoracic Surgery (WSAVA)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-2"></i>
+                                <span>Long Bone Fractures - Learning Splints and Casts (WSAVA)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-2"></i>
+                                <span>Sustainable Food Production Through Livestock Health Management</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-600 mt-1 mr-2"></i>
+                                <span>Global Health at the Human-Animal Ecosystem Interface</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-plus-circle text-blue-600 mt-1 mr-2"></i>
+                                <span>And 15+ more specialized certifications</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-6 flex items-center">
+                      <i class="fas fa-graduation-cap text-blue-600 mr-2"></i>
+                      Education & Training
+                    </h3>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-gray-800">PMAS Arid Agriculture University, Rawalpindi</h4>
+                            <p class="text-gray-600">Doctor of Veterinary Medicine (DVM)</p>
+                            <p class="text-gray-500 text-sm">2017 - 2022</p>
+                        </div>
+                        <div class="mb-6">
+                            <h4 class="font-semibold text-gray-800">Garrison Degree College, Quetta</h4>
+                            <p class="text-gray-600">Higher Secondary School Certificate (HSSC)</p>
+                            <p class="text-gray-500 text-sm">2015 - 2017</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Professional Training</h4>
+                            <ul class="text-gray-600 mt-2 space-y-2">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-blue-600 mt-1 mr-2"></i>
+                                    <span>Technical Report Writing</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-blue-600 mt-1 mr-2"></i>
+                                    <span>Tools to Diagnose and Treat Equine Lameness</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-blue-600 mt-1 mr-2"></i>
+                                    <span>Training on Thermography Diagnostic Imaging</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">Client Testimonials</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-50 rounded-lg shadow p-6 relative">
+                    <div class="text-blue-600 text-6xl absolute -top-4 left-4 opacity-20">"</div>
+                    <p class="text-gray-600 mb-6 relative z-10">Dr. Malik saved my cat after a serious accident. His emergency skills and compassionate care made all the difference. He explained everything clearly and was available for follow-up questions.</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center">
+                            <span class="text-blue-800 font-semibold">SM</span>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold">Sarah M.</h4>
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-50 rounded-lg shadow p-6 relative">
+                    <div class="text-blue-600 text-6xl absolute -top-4 left-4 opacity-20">"</div>
+                    <p class="text-gray-600 mb-6 relative z-10">I've been taking my exotic pets to Dr. Malik for over a year. His knowledge of unusual species is impressive, and he always takes time to educate me about proper care. Highly recommended!</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center">
+                            <span class="text-blue-800 font-semibold">AK</span>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold">Ahmed K.</h4>
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-50 rounded-lg shadow p-6 relative">
+                    <div class="text-blue-600 text-6xl absolute -top-4 left-4 opacity-20">"</div>
+                    <p class="text-gray-600 mb-6 relative z-10">Dr. Malik performed surgery on my aging cat and the results were amazing. His surgical expertise combined with his gentle bedside manner made a stressful situation much easier to handle.</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center">
+                            <span class="text-blue-800 font-semibold">LJ</span>
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold">Leila J.</h4>
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-blue-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-2">Contact Me</h2>
+                <div class="w-24 h-1 bg-white mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Get In Touch</h3>
+                    
+                    <div class="flex items-start mb-6">
+                        <div class="text-blue-300 mr-4">
+                            <i class="fas fa-map-marker-alt text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-1">Address</h4>
+                            <p>M. Savarin 1B, Raiyfus Goalhi,<br>Malé, 20225, Maldives</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start mb-6">
+                        <div class="text-blue-300 mr-4">
+                            <i class="fas fa-phone text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-1">Phone</h4>
+                            <p>(92) 310 838 9871</p>
+                            <p>(960) 754 9756</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start mb-6">
+                        <div class="text-blue-300 mr-4">
+                            <i class="fas fa-envelope text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold mb-1">Email</h4>
+                            <p>dr.abdulmalik999@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex space-x-4 mt-8">
+                        <a href="https://www.linkedin.com/in/abdul-malik-sandhu-4935a0198" class="w-10 h-10 bg-white text-blue-900 rounded-full flex items-center justify-center hover:bg-blue-100 transition duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white text-blue-900 rounded-full flex items-center justify-center hover:bg-blue-100 transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white text-blue-900 rounded-full flex items-center justify-center hover:bg-blue-100 transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Send a Message</h3>
+                    <form>
+                        <div class="mb-4">
+                            <input type="text" placeholder="Your Name" class="w-full p-3 rounded text-gray-800">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" placeholder="Your Email" class="w-full p-3 rounded text-gray-800">
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" placeholder="Subject" class="w-full p-3 rounded text-gray-800">
+                        </div>
+                        <div class="mb-4">
+                            <textarea rows="5" placeholder="Your Message" class="w-full p-3 rounded text-gray-800"></textarea>
+                        </div>
+                        <button type="submit" class="bg-white text-blue-900 py-3 px-8 rounded font-semibold hover:bg-blue-100 transition duration-300">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <p>&copy; 2023 Dr. Abdul Malik. All rights reserved.</p>
+                <p class="mt-2">Designed with <i class="fas fa-heart text-red-500"></i> by  <a href="https://wa.me/+923494206922" class="nonedc">Muhammad Mikran Sandhu</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('button');
+        const mobileMenu = document.querySelector('.md\\:hidden');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+<!-- End of HTML Document -->
